@@ -64,7 +64,13 @@ File _/models/train_classifier.py_ contains the machine learning pipeline:
 
 ### 2.3. Flask Web App
 
-((t.b.d.))
+Running the start command (please see No.3) **from app directory** will start the web app. Users can enter their query, i.e., a request message sent during a natural disaster, e.g. _"We need more water and food in New York!"_.
+
+**_Screenshot 1_**
+
+![Screen](images/Screenshot1.jpg)
+
+What the app will do is that it will classify the new text message entered via the app. The app will classify the message into categories so that the relief agency can be reached out for help.
 
 <a id='run'></a>
 
