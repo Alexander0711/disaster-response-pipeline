@@ -189,11 +189,13 @@ The project uses **Python 3.7** and additional libraries:
 
 ## 6. Conclusion
 
-The data in the model is highly unbalanced. 
+Classification metrics for the ML model:
 
-Accuracy of the ML model is: 0.95 (accuracy is the fraction of samples predicted correctly)
-Recall of the ML model is: 0.64 (also known as sensitivity; is the fraction of positive events that were predicted correctly)
-f1-score of the ML model is: 0.70 (f1-score is the harmonic mean of recall and precision, higher score means a better model)
+- Accuracy of the ML model is: 0.95 (accuracy is the fraction of samples predicted correctly)
+
+- Recall of the ML model is: 0.64 (also known as sensitivity; is the fraction of positive events that were predicted correctly)
+
+- f1-score of the ML model is: 0.70 (f1-score is the harmonic mean of recall and precision, higher score means a better model)
 
 <a href="https://towardsdatascience.com/understanding-data-science-classification-metrics-in-scikit-learn-in-python-3bc336865019" target="_blank">Link to understanding Data Science Classification Metrics in Scikit-Learn in Python </a>
 
