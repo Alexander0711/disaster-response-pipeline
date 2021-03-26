@@ -45,7 +45,7 @@ File _/data/process_data.py_ contains data cleaning pipeline:
 - Loads the 'disaster_messages' and 'disaster_categories' dataset
 - Merges the two datasets in one
 - Cleans the data in the combined data frame
-- Stores the data in a **SQLite database “DisasterResponse.db” **
+- Stores the data in a **SQLite database “DisasterResponse.db”**
 
 <a id='ml_pipeline'></a>
 
