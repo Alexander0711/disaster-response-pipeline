@@ -14,6 +14,7 @@
 - [File Structure](#files)
 - [Software Requirements](#sw_requirements)
 - [Conclusion](#conclusion)
+- [Links](#links)
 
 
 <a id='overview'></a>
@@ -215,4 +216,35 @@ But for this Show-Case the data and the ML model was great!
 
 ![Screen](images/Screenshot5.png)
 
+
+<a id='links'></a>
+
+## 7. Links
+
+Classification Metrics: 
+
+<a href="https://towardsdatascience.com/understanding-data-science-classification-metrics-in-scikit-learn-in-python-3bc336865019" target="_blank">Link to understanding Data Science Classification Metrics in Scikit-Learn in Python </a>
+
+<a href="https://towardsdatascience.com/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65" target="_blank">Link regarding Ffne tuning a classifier in scikit-learn </a>
+
+Help: 
+
+<a href="https://stackoverflow.com/questions/41967511/removing-non-english-words-from-corpus" target="_blank">Stopwords</a>
+
+<a href="https://stackoverflow.com/questions/6323296/python-remove-anything-that-is-not-a-letter-or-number" target="_blank">Normalize Text</a>
+
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html" target="_blank">GridSearchCV</a>
+
+<a href="https://stackoverflow.com/questions/13906623/using-pickle-dump-typeerror-must-be-str-not-bytes" target="_blank">Pickle</a>
+
+Ideas, Help and Templates: 
+
+<a href="https://github.com/sanjeevai/disaster-response-pipeline" target="_blank">GitHub from Sanjeev Yadav</a>
+
+<a href="https://github.com/gkhayes/disaster_response_app" target="_blank">GitHub from Genevieve Hayes</a>
+
+This project was completed as part of the Udacity Data Scientist Nanodegree. 
+Code templates and data were provided by Udacity. The data was originally sourced by Udacity from Figure Eight.
+
+<a href="https://www.udacity.com/course/data-scientist-nanodegree--nd025" target="_blank">Udacity Data Scientist Nanodegree</a>
 
