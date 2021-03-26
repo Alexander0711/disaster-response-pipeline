@@ -11,10 +11,9 @@
   - [Data Cleaning](#cleaning)
   - [Training ML Classifier](#training)
   - [Run the Web App](#runapp)
-- [Conclusion](#conclusion)
 - [File Structure](#files)
 - [Software Requirements](#sw_requirements)
-- [Links](#links)
+- [Conclusion](#conclusion)
 
 
 <a id='overview'></a>
@@ -138,15 +137,10 @@ Here you can enter messages and get classification results for it.
 ![Screen](images/Screenshot4.png)
 
 
-<a id='conclusion'></a>
-
-## 4. Conclusion
-
-((t.b.d.))
 
 <a id='files'></a>
 
-## 5. File Structure
+## 4. File Structure
 
 <pre>
 .
@@ -171,7 +165,7 @@ Here you can enter messages and get classification results for it.
 
 <a id='sw_requirements'></a>
 
-## 6. Software Requirements
+## 5. Software Requirements
 
 The project uses **Python 3.7** and additional libraries: 
 - _pandas_
@@ -191,9 +185,27 @@ The project uses **Python 3.7** and additional libraries:
 - _scikit-learn_
 - _SQLAlchemy_
 
+<a id='conclusion'></a>
 
-<a id='links'></a>
+## 6. Conclusion
 
-## 7. Links
+The data in the model is highly unbalanced. 
+
+Accuracy of the ML model is: 0.95 (accuracy is the fraction of samples predicted correctly)
+Recall of the ML model is: 0.64 (also known as sensitivity; is the fraction of positive events that were predicted correctly)
+f1-score of the ML model is: 0.70 (f1-score is the harmonic mean of recall and precision, higher score means a better model)
+
+<a href="https://towardsdatascience.com/understanding-data-science-classification-metrics-in-scikit-learn-in-python-3bc336865019" target="_blank">Link to understanding Data Science Classification Metrics in Scikit-Learn in Python </a>
+
+<a href="https://towardsdatascience.com/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65" target="_blank">Link regarding Ffne tuning a classifier in scikit-learn </a>
+
+You will see the exact value after the model is trained by grid searchdirect in the command line. 
+
+Though the accuracy metric is high it has a poor value for recall. This ML model is not yet ready for production or the data input is not enough. 
+But for this Show-Case the data and the ML model was great! 
+
+**_Screenshot 5_**
+
+![Screen](images/Screenshot5.png)
 
 
