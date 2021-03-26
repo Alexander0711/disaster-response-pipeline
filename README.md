@@ -137,7 +137,7 @@ _classifier.pkl_ already exists but the above command will still run and replace
 │       ├── go.html-------------------# CLASSIFICATION RESULT PAGE
 │       └── master.html---------------# MAIN PAGE OF WEB APP
 ├── data
-│   ├── DisasterResponse.db-----------# DATABASE TO SAVE CLEANED DATA
+│   ├── 
 │   ├── disaster_categories.csv-------# DATA TO PROCESS
 │   ├── disaster_messages.csv---------# DATA TO PROCESS
 │   └── process_data.py---------------# PERFORMS ETL PROCESS
@@ -145,7 +145,8 @@ _classifier.pkl_ already exists but the above command will still run and replace
 ├── models
 │   └── classifier.pkl----------------# ML MODEL
 │   └── train_classifier.py-----------# PERFORMS CLASSIFICATION TASK
-
+├──DisasterResponse.db----------------# DATABASE TO SAVE CLEANED DATA
+│
 </pre>
 
 
