@@ -68,7 +68,7 @@ Running the start command (please see No.3) **from app directory** will start th
 
 **_Screenshot 1_**
 
-![Screen](images/Screenshot1.jpg)
+![Screen](images/Screenshot1.png)
 
 What the app will do is that it will classify the new text message entered via the app. The app will classify the message into categories so that the relief agency can be reached out for help.
 
