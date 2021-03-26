@@ -76,7 +76,11 @@ What the app will do is that it will classify the new text message entered via t
 
 ## 3. Run the Project
 
-Starting with the ETL process there are three steps necessary to get the WebApp in place and use the tool: 
+Starting with the ETL process there are three steps necessary to get the WebApp in place and use the tool.
+
+**_Screenshot 2_**
+
+![Screen](images/Screenshot2.png)
 
 <a id='cleaning'></a>
 
@@ -114,15 +118,24 @@ _classifier.pkl_ already exists but the above command will still run and replace
 
 ### 3.3. Run the Web App
 
-After the data cleaning process, run this command to run ML pipeline that trains classifier and saves ML classifier **from the project directory**:
+After data cleaning and creation of the ML model the ML model will be used to predict new messages direct in the Web App interface.
+Run the following command in the app's directory to run the web app.
+
+**Go the app directory** and run the following command:
 
 ```bat
-python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+python run.py
 ```
 
-This will use cleaned data to train the ML model, improve the model with grid search and saved the model to a pickle file (_classifer.pkl_).
+This will start the web app.
 
-_classifier.pkl_ already exists but the above command will still run and replace the file will new information.
+Go to http://0.0.0.0:3001/
+
+Here you can enter messages and get classification results for it.
+
+**_Screenshot 4_**
+
+![Screen](images/Screenshot4.png)
 
 
 <a id='conclusion'></a>
