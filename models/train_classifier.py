@@ -1,4 +1,4 @@
-# version 03 by Alex
+# version 04 by Alex
 
 # import python libraries
 import sys
@@ -116,6 +116,9 @@ def build_model():
     
     # Build ML model with GridSearchCV
     # https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+    
+    # Tuning the hyper-parameters of an estimator
+    # https://scikit-learn.org/stable/modules/grid_search.html
     
     """
     - Build ML model with GridSearchCV
