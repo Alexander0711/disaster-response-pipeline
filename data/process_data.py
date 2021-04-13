@@ -1,6 +1,7 @@
-#version 02 by Alex
+#version 03.1 by Alex
 
 #import python libraries
+
 import pandas as pd
 import sys
 from sqlalchemy import create_engine
@@ -30,7 +31,7 @@ def load_data(messages_filepath, categories_filepath):
     
     return df   
     
-
+# clean data
 
 def clean_data(df):
     
@@ -83,7 +84,7 @@ def clean_data(df):
 
     return df
 
-
+# save data
 
 def save_data(df, database_filename):
     
