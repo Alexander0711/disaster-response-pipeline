@@ -119,6 +119,7 @@ def build_model():
     
     # Tuning the hyper-parameters of an estimator
     # https://scikit-learn.org/stable/modules/grid_search.html
+    # https://www.vebuso.com/2020/03/svm-hyperparameter-tuning-using-gridsearchcv/
     
     """
     - Build ML model with GridSearchCV
@@ -136,7 +137,7 @@ def build_model():
                          ('clf', MultiOutputClassifier(OneVsRestClassifier(LinearSVC())))])
 
     # parameters
-    parameters = {'vect__ngram_range': ((1, 1), (1, 2)),
+    parameters = {'vect__ngram_range': ((1, 1), (1, 4)),
                   'vect__max_df': (0.75, 1.0)
                   }
 
