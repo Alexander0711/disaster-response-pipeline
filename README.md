@@ -21,6 +21,8 @@
 
 ## 1. Project Overview
 
+The motivation behind this project is to classify disaster messages into categories. Through a web app, the user can input a new disaster message and get classification results in several categories. With this classification help can be organized in an efficient way. 
+
 In the “Disaster Response Pipeline” project, I will apply data engineering and machine learning to analyze disaster data provided by <a href="https://www.figure-eight.com/" target="_blank">Figure Eight</a> and <a href="https://www.udacity.com/" target="_blank">Udacity</a> to build a ML classifier model that classifies disaster messages from social media and news.
 
 The 'data' directory contains real messages that were sent during disaster events. I will create a machine learning pipeline to categorize these events so that appropriate disaster help agencies can be reached out for help.
