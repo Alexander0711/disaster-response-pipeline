@@ -1,4 +1,4 @@
-# version 04 by Alex
+# version 04.1 by Alex
 
 # import python libraries
 import sys
@@ -137,7 +137,7 @@ def build_model():
                          ('clf', MultiOutputClassifier(OneVsRestClassifier(LinearSVC())))])
 
     # parameters
-    parameters = {'vect__ngram_range': ((1, 1), (1, 4)),
+    parameters = {'vect__ngram_range': ((1, 1), (1, 2)),
                   'vect__max_df': (0.75, 1.0)
                   }
 
